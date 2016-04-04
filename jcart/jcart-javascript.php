@@ -23,6 +23,7 @@ session_start();
 ?>
 
 // WHEN THE DOCUMENT IS READY
+(function($){
 $(function(){
 
 	/**********************************************************************
@@ -275,3 +276,4 @@ $(function(){
 
 	// END THE DOCUMENT READY FUNCTION
 	});
+}(jQuery)
