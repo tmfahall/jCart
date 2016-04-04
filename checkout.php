@@ -63,7 +63,7 @@ $cart =& $_SESSION['jcart']; if(!is_object($cart)) $cart = new jcart();
 			</div>
 		</div>
 
-		<script type="text/javascript" src="jcart/jquery-1.3.2.min.js"></script>
+		<script type="text/javascript" src="jcart/jquery-1.12.2.min.js"></script>
 		<script type="text/javascript" src="jcart/jcart-javascript.min.php"></script>
 	</body>
 </html>
