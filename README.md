@@ -7,9 +7,13 @@ Based on jQuery and PHP, jCart handles visitor input without reloading the page 
 jCart was created by Doug Whitney, and maintained through version 1.3, when he stopped development.
 http://conceptlogic.com/jcart/
 
-During some of this time I assisted Doug with bugfixes, and online user support. I had created some of my own
-private modifications to jCart from my work on various websites, and have decided to release them publicly.
+During that time Justin Ryan assisted Doug with bugfixes, and online user support and created some of his own
+private modifications to jCart from his work on various websites, and he decided to release them publicly.
 http://jcart.org
 
-Justin Ryan
-http://jstnryan.com
+I came across jCart while volunteering on a website.  I noticed it uses jQuery 1.3.2 which had some vulnerabilities so I updated jCart to the newest librar, added $.noConflict(), and enclosed all jQuery in IIFE's so that $ could still be used by other libraries without conflict.
+
+I am not associated with Justin Ryan - jstn@jstnryan.com or Doug Whitney.
+
+Andrew Hall
+anhall@gmx.com
